@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+  .container {
+    width: 90%;
+    margin: 100px auto;
+  }
+/*nav*/
+.nav{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #ccc;
+}
+nav{
+ 
+ padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #ccc;
+}
+
+.nav i{
+    display:none;
+}
+.nav a{
+    color:black;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav a:hover{
+    color:white;
+    background-color: black;
+    padding: 5px;
+
+}
+/*header*/
+.header{
+  position: relative;
+}
+.header img{
+  width: 100%;
+  
+}
+.h{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 200px;
+}
+.btn{
+  position: absolute;
+  top: 200px;
+  font-size: 25px;
+  border: none;
+  margin: 20px;
+  padding: 15px;
+  background-color: #ffc107;
+  color: white;
+  border-radius: 10px;
+  left: 500px;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+.header h1{
+  
+  margin: 20px;
+  
+}
+.header p{
+  margin: 50px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.icons{
+  position: absolute;
+  font-size: 50;
+  display: flex;
+  justify-content: space-between;
+
+}
+/*service*/
+.service h1{
+  margin: 30px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 70;
+}
+.service .p{
+  text-align: center;
+  margin-bottom: 100px;
+  line-height: 1.5;
+}
+.image{
+  margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img{
+  width: 24%;
+text-align: center;
+}
+.img img{
+  width: 30%;
+margin-bottom: 20px;
+  
+}
+.img h2{
+  font-weight: 400;
+  font-size: 25px;
+}
+.img p{
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  color: #090808;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.service .img .btn1{
+  margin-top: 20px;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  background-color:#ffc107;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.img .btn1:hover{
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffc107;
+  width: 100%;
+}
+.about-left h1{
+  color: white;
+  margin: 100px;
+
+}
+.about-left p{
+  color: white;
+  margin: 100px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.about-left .btn2{
+  margin-left: 100px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.about-left .btn2:hover{
+  color: black;
+  background-color: white;
+}
+.about-right img{
+  width: 100%;
+}
+/*furniture*/
+.furniture h1{
+text-align: center;
+font-weight: 400;
+margin-bottom: 40px;
+}
+.furniture p{
+  text-align: center;
+ margin-bottom: 150px;
+}
+.fur{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.fur1{
+  width: 48%;
+}
+.fur1 img{
+  width: 100%;
+}
+.fur1 h3{
+  margin: 30px;
+  color:#ffc107;
+}
+.fur1 p{
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+}
+/*WHO WE ARE ?*/
+.Are{
+  width: 100%;
+  height: 100%;
+  background-color:#ffc107 ;
+}
+.are{
+  text-align: center;
+}
+.are h1{
+  font-weight: 400;
+  color: white;
+  margin: 40px;
+  margin-top: 30px;
+}
+.are h4{
+  font-weight: 400;
+  color: white;
+  margin: 30px;
+  margin-top: 30px;
+}
+.are p{
+  color: white;
+  line-height: 1.5;
+}
+.are button{
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  background-color: black;
+}
+.are button:hover{
+background-color: white;
+color: black;
+transition: 0.5s;
+}
+/*projects*/
+.projects h1{
+  font-weight: 400;
+  text-align: center;
+  margin: 30px;
+}
+.projects p{
+  margin: 30px;
+  text-align: center;
+}
+.project{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.project1{
+  width: 33%;
+}
+.project1 p{
+  position: absolute;
+   bottom: 10px;
+   color: white;
+   margin: 30px;
+   text-align: center;
+}
+.clients h1{
+font-weight: 400;
+margin: 20px;
+text-align: center;
+}
+.clients .p{
+  margin: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.text p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.client1{
+  display: flex;
+  gap:20px;
+}
+/*contact*/
+.connect{
+  background-color: #ffc107;
+  
+  display: flex;justify-content: space-between;
+}
+form{
+  flex-direction: column;
+}
+.contact{
+  display: flex;
+}
+.connect-left{
+  flex-direction: column;
+}
+input{
+  width: 60%;
+  margin: 20px;padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+textarea{
+  width: 60%;
+  margin: 20px;padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.connect h1{
+  color:white;
+}
+.connect-left .send{
+  padding: 15px;
+  font-size: 25px;
+  color: gray;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+}
+.connect-left .send:hover{
+  background: black;
+  color: white;
+}
+/*footer*/
+.footer{
+background-color: black;display: flex;gap: 30px;
+}
+.foot{
+  background-color:black;
+  
+  display: flex;
+}
+.footer1{
+  width: 24%;
+  color: white;
+  
+}
+.footer1 p{
+  line-height: 1.5;
+  margin:20px 0px;
+}
+@media screen and (max-width : 480px){
+  /*nav*/
+  .center-nav{
+    display: none;
+  }
+  .nav i{
+    display:block;
+    font-size: 40px;
+    color:white;
+}
+.right-nav{
+  display: none;
+}
+/*header*/
+.header{
+  position: relative;
+  width: 100%;
+}
+.h{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 60px; 
+}
+.head p{
+  height: 15px;
+}
+.head img{
+  width: 100%;
+  height: 500px
+}
+/*service*/
+.image{
+  flex-direction: column;
+  width: 100%;
+}
+.img{
+  width: 100%;
+  align-items: center;
+}
+.img img{
+  align-items: center;
+  text-align: center;
+}
+.img img{
+  width: 30%;
+  margin: 0 80px;
+}
+.img h2{
+align-items: center;
+margin:20px 80px;
+}
+.img p{
+  align-items: left;
+ line-height: 1.5;
+  margin: 20px;
+}
+.img .btn1{
+  align-items: center;
+ 
+} 
+.about{
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-right img{
+  width: 100%;
+  margin: 20px;
+
+}
+.about-left p{
+  width: 100%;
+  margin: 50px 20px;
+  line-height: 1.5;
+}
+/*furniture*/
+.fur{
+flex-direction: column;
+
+}
+.fur1{
+  width: 100%;
+}
+.fur .fur1 h3{
+  text-align: left;
+  align-items:normal;
+}
+.fur1 p{
+  line-height: 1.5;
+}
+/*pojects*/
+.project{
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.project{
+  flex-direction: column;
+}
+.project1{
+  width: 100%;
+}
+.client1{
+  flex-direction: column;
+}
+.client1 img{
+  width: 100%;
+}
+.contact{
+  flex-direction: column;
+}
+.connect-right img{
+  width: 100%;
+}
+.footer{
+  flex-direction: column;
+}
+.footer1{
+  width: 100%;
+}
+}
